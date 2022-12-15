@@ -5,3 +5,65 @@ img {
 body {
     background-color: bisque;
 }
+
+
+/* OLD GENERAL */
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* VARIABLES */
+:root {
+    /* Colors */
+    --col-white: #ffffff;
+    --col-light-blue: #3b7df6;
+    --col-dark-gray: #212121;
+    --col-gray: #323232;
+    --col-light-gray: #939393;
+}
+
+/* UTILITIES */
+.flex-v-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COMMON */
+html {
+    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Open Sans condensed', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-std {
+    padding: 0.5rem 3rem;
+    color: $col_white;
+    background-color: $col_light_blue;
+    border: none;
+    font-family: 'Open sans condensed', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
