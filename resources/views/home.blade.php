@@ -9,14 +9,14 @@
 
     <section class="main-container">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    @foreach ($comics as $comic)
-                        <p>{{ $comic['title'] }}</p>
-                    @endforeach
-                    {{-- <ComicsCard v-for="(comic, index) in comicsDC" :key="index" :comicSeries="comic.series"
+            <div class="row row-cols-6">
+                @foreach ($comics as $comic)
+                    <div class="col">
+                        @include('partials.comicCard')
+                    </div>
+                @endforeach
+                {{-- <ComicsCard v-for="(comic, index) in comicsDC" :key="index" :comicSeries="comic.series"
                         :comicImg="comic.thumb" /> --}}
-                </div>
             </div>
         </div>
 
