@@ -1,0 +1,37 @@
+.header-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: $col-white;
+}
+
+.header-container {
+    height: 120px;
+}
+
+.logo-img {
+    width: 110px;
+    padding: 1rem;
+}
+
+nav {
+    height: 100%;
+}
+
+ul {
+    height: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+a {
+    font-size: 0.8rem;
+}
+
+.active {
+    border-bottom: 5px solid $col-light-blue;
+}

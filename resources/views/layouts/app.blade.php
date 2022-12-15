@@ -17,9 +17,7 @@
     @include('partials.header')
 
     <main>
-        <p>
-            hello Main (in app.blade.php)
-        </p>
+        @
     </main>
 
     @include('partials.footer')
